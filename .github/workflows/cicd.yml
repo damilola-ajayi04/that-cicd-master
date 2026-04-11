@@ -1,0 +1,20 @@
+name: My CI/CD Pipeline
+
+on:
+  push:
+     branches:
+       - main
+
+jobs:
+  run-first-job:
+    runs-on: ubuntu-latest
+
+     steps:
+         - name: Step 1 - Say Hello
+           run: echo "Hello from CI/CD"
+
+         - name: Step 2 - Show files
+           run: ls
+
+         - name: Step 3 - Print wprking directory
+           run:  pwd
