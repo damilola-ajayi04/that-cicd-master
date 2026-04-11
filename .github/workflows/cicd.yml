@@ -9,7 +9,7 @@ jobs:
   run-first-job:
     runs-on: ubuntu-latest
 
-     steps:
+    steps:
          - name: Step 1 - Say Hello
            run: echo "Hello from CI/CD"
 
