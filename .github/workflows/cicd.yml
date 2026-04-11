@@ -16,5 +16,5 @@ jobs:
          - name: Step 2 - Show files
            run: ls
 
-         - name: Step 3 - Print wprking directory
+         - name: Step 3 - Print working directory
            run:  pwd
