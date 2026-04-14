@@ -22,5 +22,14 @@ jobs:
          - name: Step 4 - Show system info
            run: uname -a
 
-         - name: Step5 - Show current date  
+         - name: Step 5 - Show current date  
            run: date
+
+         - name: Step 6 - Run fake test
+           run: echo "all tests passed"
+
+         - name: Step 7 - Check Nods version
+           run: node -v
+
+         - name: Step 8 - Custom message
+           run: echo "This pipeline was built by Damilola"
