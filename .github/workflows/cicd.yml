@@ -20,7 +20,7 @@ jobs:
            run:  pwd
 
          - name: Step 4 - Show system info
-           run: uname -l
+           run: uname -a
 
          - name: Step5 - Show current date  
            run: date
