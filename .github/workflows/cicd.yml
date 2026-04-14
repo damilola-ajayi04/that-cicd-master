@@ -10,14 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-         - name: Step 1 - Say Hello
-           run: echo "Pipeline Started"
+         - name: Step 1 - Start message
+           run: echo "Starting Pipeline"
 
-         - name: Step 2 - Show files
-           run: ls
+         - name: Step 2 - Show files in repo
+           run: ls -la
 
-         - name: Step 3 - Print working directory
+         - name: Step 3 - Show working directory
            run:  pwd
-           
-         - name: Step 4 - Show date
+
+         - name: Step 4 - Show system info
+           run: uname -l
+
+         - name: Step5 - Show current date  
            run: date
